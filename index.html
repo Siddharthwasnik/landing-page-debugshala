@@ -1,4 +1,4 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -9,8 +9,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="stylesheet" type="text/css" href="slick/slick.css" />
   <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css"/>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/e0d0cf02e8.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
@@ -45,7 +46,7 @@
         </div>
       </div>
       <div class="right-form">
-        <form>
+        <form data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="50">
           <h2>Book Your Demo Classes For Free!</h2>
           <input type="text" placeholder="Full Name" required />
           <input type="email" placeholder="Email" required />
@@ -59,10 +60,10 @@
               <option value="spanish">Spanish</option>
             </select>
           </div>
-  
+
           <input type="text" placeholder="" required />
 
-          <button type="submit">Register</button>
+          <button type="submit" id="Register">Register</button>
         </form>
       </div>
     </div>
@@ -80,9 +81,29 @@
         With us, your job search is made easy. We prepare you to be
         industry-ready—no hassle, just results
       </p>
-      <div>
-        <img src="" alt="hello" /><img src="" alt="hello" /><img src="" alt="hello" /><img src="" alt="hello" /><img
-          src="" alt="hello" /><img src="" alt="hello" /><img src="hello" alt="hello" /><img src="hello" alt="" />
+      <div class="company_logo">
+        <img src="./assets/company_logo/Aimleap.png" alt="Aimleap" data-aos="flip-right" data-aos-duration="1000"
+          data-aos-delay="200" data-aos-offset="50" />
+        <img src="./assets/company_logo/Bitcot.png" alt="bitcot" data-aos="flip-right" data-aos-duration="1000"
+          data-aos-delay="200" data-aos-offset="50" />
+        <img src="./assets/company_logo/Beyond key.png" alt="Beyond" data-aos="flip-right" data-aos-duration="1000"
+          data-aos-delay="200" data-aos-offset="50" />
+        <img src="./assets/company_logo/Bootnext.png" alt="Bootnext" data-aos="flip-right" data-aos-duration="1000"
+          data-aos-delay="200" data-aos-offset="50" />
+        <img src="./assets/company_logo/Celebal technologies.png" alt="Celebal" data-aos="flip-right"
+          data-aos-duration="1000" data-aos-delay="200" data-aos-offset="50" />
+        <img src="./assets/company_logo/7 Paexskin.png" alt="Paexskin" data-aos="flip-right" data-aos-duration="1000"
+          data-aos-delay="200" data-aos-offset="50" />
+        <img src="./assets/company_logo/bridgefix .png" alt="bridgefix" data-aos="flip-right" data-aos-duration="1000"
+          data-aos-delay="200" data-aos-offset="50" />
+        <img src="./assets/company_logo/cubexo.png" alt="cubexo" data-aos="flip-right" data-aos-duration="1000"
+          data-aos-delay="200" data-aos-offset="50" />
+        <img src="./assets/company_logo/Engineer Master.png" alt="Engineer master" srcset="" data-aos="flip-right"
+          data-aos-duration="1000" data-aos-delay="200" data-aos-offset="50">
+        <img src="./assets/company_logo/Mindefy.png" alt="Mindefy" data-aos="flip-right" data-aos-duration="1000"
+          data-aos-delay="200" data-aos-offset="50">
+        <img src="./assets/company_logo/Linuxbean.png" alt="Linuxbean" data-aos="flip-right" data-aos-duration="1000"
+          data-aos-delay="200" data-aos-offset="50">
       </div>
     </div>
     <div class="right">
@@ -90,23 +111,24 @@
     </div>
   </div>
   <h1 style="text-align: center; margin-bottom: 20px; ; font-size: 50px; ">
-    Two Career Paths, One Goal: <span style=" text-decoration: underline rgb(1, 75, 132); color: rgb(1, 75, 132);"> Your Success</span></h1>
+    Two Career Paths, One Goal: <span style=" text-decoration: underline rgb(1, 75, 132); color: rgb(1, 75, 132);"> Your
+      Success</span></h1>
   <div class="course-main">
-    <div class="course">
-      <img src="./2.gif" alt="hello" width="300px" />
+    <div class="course" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="50">
+      <img src="./assets/course img/2.gif" alt="hello" width="300px" />
       <h3>Development Path: Java and Python Full Stack Course</h3>
       <span>Effective programmers excel by managing complex details that others
         might miss</span>
-      <button class="course-btn">Explore the Course</button>
-      <button class="course-btn2">Download Boucher</button>
+      <button class="course-btn"><i class="fa-solid fa-store"></i> Explore the Course</button>
+      <button class="course-btn2">Download Boucher <i class="fa-solid fa-download"></i></button>
     </div>
-    <div class="course">
-      <img src="./1.gif" alt="hello" width="300px" />
+    <div class="course" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="50">
+      <img src="./assets/course img/1.gif" alt="hello" width="300px" />
       <h3>Data Science With : Python and Machine Learning Course</h3>
       <span>Effective programmers excel by managing complex details that others
         might miss</span>
-      <button class="course-btn">Explore the Course</button>
-      <button class="course-btn2">Download Boucher</button>
+      <button class="course-btn"><i class="fa-solid fa-store"></i> Explore the Course</button>
+      <button class="course-btn2">Download Boucher <i class="fa-solid fa-download"></i></button>
     </div>
   </div>
 
@@ -123,7 +145,7 @@
     </div>
 
     <div class="features">
-      <div class="card">
+      <div class="card" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="50">
         <p>
           Interactive
           <span style="
@@ -136,89 +158,43 @@
           direct interaction and swift query resolution for a smooth learning
           experience</span>
       </div>
-      <div class="card">
+      <div class="card" data-aos="flip-up" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="50">
         <p>
-          Interactive
+          Interview
           <span style="
                  text-decoration: underline rgb(1, 75, 132);
                  color: rgb(1, 75, 132);
                 font-weight: 700;
-              ">Learning</span>
+              ">Prep Focus</span>
         </p>
-        <span><strong>Live & Instant Support:</strong> Real-time classes with
-          direct interaction and swift query resolution for a smooth learning
-          experience</span>
+        <span><strong>Placement Drive Readiness:</strong>Comprehensive grooming for students to excel in every career
+          opportunity they encounter</span>
       </div>
-      <div class="card">
+      <div class="card" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="50">
         <p>
-          Interactive
+          Unlimited
           <span style="
                 text-decoration: underline rgb(1, 75, 132);
                 color: rgb(1, 75, 132);
                 font-weight: 700;
-              ">Learning</span>
+              ">Placement</span>
         </p>
-        <span><strong>Live & Instant Support:</strong> Real-time classes with
-          direct interaction and swift query resolution for a smooth learning
-          experience</span>
+        <span><strong>Continuous Drives:</strong> Access from Day 1 to non-stop placement opportunities until securing
+          your dream job</span>
       </div>
 
-          <p>
-            Interactive
-            <span
-              style="
-                text-decoration: underline rgb(1, 75, 132);
-                font-weight: 700;
-              "
-              >Learning</span
-            >
-          </p>
-          <span
-            ><strong>Live & Instant Support:</strong> Real-time classes with
-            direct interaction and swift query resolution for a smooth learning
-            experience</span
-          >
-        </div>
-        <div class="card">
-          <p>
-            Interactive
-            <span
-              style="
-                text-decoration: underline rgb(1, 75, 132);
-                font-weight: 700;
-              "
-              >Learning</span
-            >
-          </p>
-          <span
-            ><strong>Live & Instant Support:</strong> Real-time classes with
-            direct interaction and swift query resolution for a smooth learning
-            experience</span
-          >
-        </div>
-        <div class="card">
-          <p>
-            Interactive
-            <span
-              style="
-                text-decoration: underline rgb(15, 46, 69);
-                font-weight: 700;
-              "
-              >Learning</span
-            >
-          </p>
-          <span
-            ><strong>Live & Instant Support:</strong> Real-time classes with
-            direct interaction and swift query resolution for a smooth learning
-            experience</span
-          >
-        </div> -->
-    <!-- </div> -->
 
-    <!-- <div class="info">
-      <div class="box">Next Batch - 24th February 2025</div>
-      <div class="box">Limited Seats - Reserve Now</div>
-      <div class="box">Contact Academic Counsellor</div>
+
+
+    </div>
+
+    <div class="info">
+      <div class="box" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="50"> <i
+          class="fa-solid fa-calendar-days" style="margin-right: 5px;"></i> Next Batch - 24th February 2025</div>
+      <div class="box" data-aos="flip-up" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="50"> <i
+          class="fa-solid fa-trophy" style="margin-right: 5px;"></i>Limited Seats - Reserve Now</div>
+      <div class="box" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="50"><i
+          class="fa-solid fa-phone" style="margin-right: 5px;"></i>Contact Academic Counsellor</div>
     </div>
   </div>
   <div class="students">
@@ -300,14 +276,16 @@
 
 
   <h1 style="text-align: center; ;
-          ; font-size: 50px; margin: 20px;">Join The <span style="  text-decoration: underline rgb(1, 75, 132);  color: rgb(1, 75, 132)"> Gang</span></h1>
+          ; font-size: 50px; margin: 20px;">Join The <span
+      style="  text-decoration: underline rgb(1, 75, 132);  color: rgb(1, 75, 132)"> Gang</span></h1>
   <div class="gang">
 
-    
-    <div class="card1 change"></div>
+
+    <div class="card1 change" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="50">
+    </div>
   </div>
 
- 
+
   <footer class="footer">
     <div class="footer-container">
       <div class="footer-section">
@@ -393,8 +371,11 @@
 
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
   <script src="./script.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-  
+  <script>
+    AOS.init();
+  </script>
 </body>
 
-</html> --> -->
+</html>

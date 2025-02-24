@@ -26,11 +26,7 @@ html {
 .form-section {
   display: flex;
   width: 100%;
-  /* height: 100%; */
-  /* background: #fff; */
-  /* box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); */
   border-radius: 10px;
-  /* overflow: hidden; */
 }
 
 .left-content h2 {
@@ -87,16 +83,6 @@ form h2 {
   gap: 4vw;
 }
 
-/* .radio-group {
-  margin: 10px 0;
-}
-
-.radio-group input {
-  display: flex; 
-   align-items: center;
-   gap: 10px; 
-  margin-top: 5px;
-} */
 
 input,
 button,
@@ -137,7 +123,7 @@ select {
   color: black;
 }
 
-button {
+#Register {
   background: #2c3e50;
   color: white;
   border: none;
@@ -145,7 +131,7 @@ button {
   transition: 0.3s;
 }
 
-button:hover {
+#Register:hover {
   background: #34495e;
 }
 
@@ -204,21 +190,23 @@ button:hover {
   padding: 20px 10px;
 
 }
-
+.course h3{
+  width: 80%;
+}
 
 
 .course-btn {
   width: 200px;
   background: white;
   color: black;
-  border: 2px solid rgb(214, 235, 31);
+  border: 2px solid rgb(1, 75, 132);
   font-weight: 700;
 }
 
 .course-btn2 {
   width: 200px;
-  background-color: rgb(90, 232, 90);
-  color: #000;
+  background-color: rgb(1, 75, 132);
+  color:white;
   font-weight: 700;
 }
 
@@ -239,7 +227,7 @@ button:hover {
     justify-content: center;
     align-items: center;
     width: 400px;
-    border: 2px solid gray;
+    border: 2px solid rgb(1, 75, 132);
     border-radius: 20px;
     padding: 20px 10px;
 
@@ -249,14 +237,14 @@ button:hover {
     width: 200px;
     background: white;
     color: black;
-    border: 2px solid rgb(214, 235, 31);
+    border: 2px solid rgb(1, 75, 132);
     font-weight: 700;
   }
 
   .course-btn2 {
     width: 200px;
-    background-color: rgb(90, 232, 90);
-    color: #000;
+    background-color: rgb(1, 75, 132);
+    color:white;
     font-weight: 700;
   }
 }
@@ -279,7 +267,7 @@ button:hover {
     justify-content: center;
     align-items: center;
     width: 300px;
-    border: 2px solid gray;
+    border: 2px solid rgb(1, 75, 132);
     border-radius: 20px;
     padding: 20px 10px;
 
@@ -289,14 +277,14 @@ button:hover {
     width: 200px;
     background: white;
     color: black;
-    border: 2px solid rgb(214, 235, 31);
+    border: 2px solid rgb(1, 75, 132);
     font-weight: 700;
   }
 
   .course-btn2 {
     width: 200px;
-    background-color: rgb(90, 232, 90);
-    color: #000;
+    background-color: rgb(1, 75, 132);
+    color:white;
     font-weight: 700;
   }
 }
@@ -319,7 +307,7 @@ button:hover {
     justify-content: center;
     align-items: center;
     width: 400px;
-    border: 2px solid gray;
+    border: 2px solidrgb(1, 75, 132);
     border-radius: 20px;
     padding: 20px 10px;
 
@@ -329,14 +317,14 @@ button:hover {
     width: 200px;
     background: white;
     color: black;
-    border: 2px solid rgb(214, 235, 31);
+    border: 2px solid rgb(1, 75, 132);
     font-weight: 700;
   }
 
   .course-btn2 {
     width: 200px;
-    background-color: rgb(90, 232, 90);
-    color: #000;
+    background-color: rgb(1, 75, 132);
+    color:white;
     font-weight: 700;
   }
 }
@@ -359,7 +347,7 @@ button:hover {
     justify-content: center;
     align-items: center;
     width: 500px;
-    border: 2px solid gray;
+    border: 2px solidrgb(1, 75, 132);
     border-radius: 20px;
     padding: 20px 10px;
 
@@ -369,14 +357,14 @@ button:hover {
     width: 200px;
     background: white;
     color: black;
-    border: 2px solid rgb(214, 235, 31);
+    border: 2px solid rgb(1, 75, 132);
     font-weight: 700;
   }
 
   .course-btn2 {
     width: 200px;
-    background-color: rgb(90, 232, 90);
-    color: #000;
+    background-color: rgb(1, 75, 132);
+    color:white;
     font-weight: 700;
   }
 }
@@ -399,7 +387,7 @@ button:hover {
     justify-content: center;
     align-items: center;
     width: 500px;
-    border: 2px solid gray;
+    border: 2px solidrgb(1, 75, 132);
     border-radius: 20px;
     padding: 20px 10px;
 
@@ -409,14 +397,14 @@ button:hover {
     width: 200px;
     background: white;
     color: black;
-    border: 2px solid rgb(214, 235, 31);
+    border: 2px solid rgb(1, 75, 132);
     font-weight: 700;
   }
 
   .course-btn2 {
     width: 200px;
-    background-color: rgb(90, 232, 90);
-    color: #000;
+    background-color: rgb(1, 75, 132);
+    color:white;
     font-weight: 700;
   }
 }
@@ -456,11 +444,12 @@ button:hover {
 }
 
 /* Image Styling */
-.logos {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  justify-content: center;
+.company_logo img {
+width: 100px;
+height: 40px;                               
+background-color: rgb(1, 75, 132);
+object-fit: contain;
+border-radius: 10px;
 }
 
 
@@ -694,7 +683,7 @@ button:hover {
   }
   
   .box {
-    width: 30%;
+    width: 50%;
     height: 50px;
     padding: 8px;
   }
@@ -804,43 +793,43 @@ swiper-slide img {
 }
 @keyframes change {
   0% {
-    background-image: url("./assets/1.jpg");
+    background-image: url("./assets/community img/1.jpg");
   }
 
   10% {
-    background-image: url("./assets/2.jpg");
+    background-image: url("./assets/community img/2.jpg");
   }
 
   20% {
-    background-image: url("./assets/3.jpg");
+    background-image: url("./assets/community img/3.jpg");
   }
 
   30% {
-    background-image: url("./assets/4.jpg");
+    background-image: url("./assets/community img/4.jpg");
   }
 
   40% {
-    background-image: url("./assets/5.jpg");
+    background-image: url("./assets/community img/5.jpg");
   }
 
   50% {
-    background-image: url("./assets/6.jpg");
+    background-image: url("./assets/community img/6.jpg");
   }
 
   60% {
-    background-image: url("./assets/7.jpg");
+    background-image: url("./assets/community img/7.jpg");
   }
 
   70% {
-    background-image: url("./assets/8.jpg");
+    background-image: url("./assets/community img/8.jpg");
   }
 
   80% {
-    background-image: url("./assets/9.jpg");
+    background-image: url("./assets/community img/9.jpg");
   }
 
   90% {
-    background-image: url("./assets/10.jpg");
+    background-image: url("./assets/community img/10.jpg");
   }
 
   100% {
@@ -864,6 +853,7 @@ swiper-slide img {
   width: min(100%, 568px);
   aspect-ratio: 1.84/1;
   border-radius: 15px;
+  border: 5px solid rgb(1, 75, 132);
   background-size: cover;
   background-position: center;
 }
@@ -937,10 +927,12 @@ hr {
 .social-icons a {
   width: 35px;
   height: 35px;
-  background: rgba(255, 255, 255, 0.1);
+  background: white;
   border-radius: 50%;
+  text-decoration: none;
   display: flex;
   align-items: center;
+  text-decoration: none;
   justify-content: center;
   transition: transform 0.3s ease, background-color 0.3s ease;
   animation: fadeIn 0.5s ease-out;
